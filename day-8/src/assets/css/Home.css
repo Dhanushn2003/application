@@ -1,0 +1,239 @@
+/* Home.css */
+
+/* Overall page layout */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.logo h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Navigation styling */
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Main content styling */
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content at the top of the section */
+  padding: 20px;
+}
+
+/* Search bar styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 8px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.search-button {
+  background-color: #283039;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Section styling */
+.section {
+  margin-top: 20px; /* Add spacing between sections */
+}
+.section-header {
+  display: flex;
+  flex-direction: column; /* Display links below the image */
+  align-items: center;
+  margin-bottom: 10px; /* Add spacing between header and content */
+  text-align: center; /* Center-align text within the section header */
+}
+
+.section-header img {
+  width: 115px; /* Adjust image size as needed */
+  height: 120px; /* Adjust image size as needed */
+  margin-bottom: 10px; /* Add spacing between image and text */
+}
+
+.section-header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+/* Home.css */
+
+/* Add this CSS for two-column layout */
+.section-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: space-between; /* Distribute space between items */
+  gap: 20px; /* Adjust the gap between columns as needed */
+}
+
+/* Style for individual sections */
+.section {
+  flex: 1; /* Each section takes an equal part of the container */
+  background-color: #e9d5d5; 
+  border: 1px solid #ccc; /* Add a border for separation */
+  padding: 20px; /* Add padding to the sections */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for a card-like effect */
+}
+
+/* Adjust the styling of section headers, images, and links as needed */
+.section-header {
+  text-align: center;
+}
+
+.section-header img {
+  max-width: 100%; /* Ensure images don't exceed their container */
+}
+
+.section h2 {
+  margin-top: 10px;
+}
+
+.section a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+
+/* Section links styling */
+.section-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-links li {
+  margin-bottom: 10px; 
+}
+
+.section-links a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  font-size: 18px;
+  display: block; 
+}
+.home-container {
+  background-image: url('https://img.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?t=st=1695631646~exp=1695632246~hmac=5b72eca344a49f2280718c1c3fc4b2432baa0504a68fcd94085534eec9b02e68'); /* Specify the path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+
+.footer {
+  padding: 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-align: center;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.poster-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.poster {
+  width: 25%;
+  min-width: 300px;
+  background-color: #022c5a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  transform-origin: center;
+  transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid #ccc;
+}
+
+.poster:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.poster h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.poster p {
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+
+.explore-button {
+  background-color: #fff;
+  color: #007BFF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #007BFF;
+  color: #fff;
+}

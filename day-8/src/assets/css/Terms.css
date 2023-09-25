@@ -1,0 +1,38 @@
+
+
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .terms-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .terms-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-box-shadow: 13px 16px 15px 6px rgba(206,207,224,1);
+-moz-box-shadow: 13px 16px 15px 6px rgba(206,207,224,1);
+box-shadow: 13px 16px 15px 6px rgba(206,207,224,1);
+}
+.terms-container{
+  
+    background-image: url('https://img.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?t=st=1695631646~exp=1695632246~hmac=5b72eca344a49f2280718c1c3fc4b2432baa0504a68fcd94085534eec9b02e68'); /* Specify the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  
+}
